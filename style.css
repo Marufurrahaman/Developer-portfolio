@@ -8,8 +8,9 @@ h1 {
 .name-color1 {
   color: rebeccapurple;
 }
-section {
+.half-bd {
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width {
   padding-left: 2%;
@@ -22,12 +23,17 @@ section {
 .hireme {
   text-decoration: none;
   background-image: linear-gradient(rgb(19, 223, 19), rgb(13, 203, 236));
-  padding-right: 10px 40px;
+  padding-right: 200px 100px;
   font-weight: 600;
   color: rgb(220, 218, 226);
   border-radius: 5px;
 }
 .top-banner {
-  background-image: url(images/top-banner.png);
+  background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
